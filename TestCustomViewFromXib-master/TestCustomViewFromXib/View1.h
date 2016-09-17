@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface View1 : UIView
-
+- (void)initWithMyView:(CGRect)frame;
 @end
