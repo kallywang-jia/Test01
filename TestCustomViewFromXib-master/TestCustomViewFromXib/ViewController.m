@@ -27,6 +27,10 @@
     selfTableView.dataSource = self;
     selfTableView.tableHeaderView = testCustomView;
     [self.view addSubview:selfTableView];
+    
+    UIView *view1 = [[UIView alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
+    view1.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:view1];
 //    [self.view addSubview:testCustomView];
 }
 
